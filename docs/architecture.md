@@ -4,25 +4,82 @@ This document describes the architecture of the Enterprise Infrastructure Lab.
 
 ## Purpose
 
-Define the structure, components, and evolution of the infrastructure environment.
+Define the structure and evolution of the infrastructure that supports the fictional company, LexLearn.
 
-## Current State
+The architecture is designed to simulate a real-world enterprise environment while remaining scalable and easy to extend as new technologies are introduced.
 
-The project is currently in the planning phase.
+## Design Principles
 
-## Architecture Components
+The infrastructure should:
 
-The infrastructure will be composed of:
+- Simulate a real corporate environment.
+- Be modular and scalable.
+- Follow industry best practices whenever practical.
+- Prioritize simplicity before complexity.
+- Support future integration with additional services and technologies.
 
-- Virtualization environment
-- Network infrastructure
-- Servers
-- Client machines
-- Identity services
-- Automation tools
-- Monitoring solutions
-- Cloud services
+## Current Architecture
 
-## Future Evolution
+The initial infrastructure consists of a single Windows Server acting as the Domain Controller and a Windows 11 client joined to the domain.
 
-The architecture will evolve as new technologies and capabilities are introduced.
+### Virtualization Platform
+
+- Oracle VirtualBox
+
+### Virtual Network
+
+| Network | Subnet |
+|----------|--------|
+| Internal Network | 192.168.10.0/24 |
+
+### Virtual Machines
+
+| Name | Operating System | Purpose |
+|------|-------------------|---------|
+| SRV-DC-01 | Windows Server 2022 | Domain Controller, DNS, DHCP |
+| CLT-01 | Windows 11 Pro | Domain-joined client workstation |
+
+### Domain
+
+| Property | Value |
+|----------|-------|
+| Domain Name | lexlearn.local |
+
+### IP Addressing
+
+| Device | Address |
+|---------|---------|
+| SRV-DC-01 | 192.168.10.10 (Static) |
+| CLT-01 | DHCP |
+
+### Server Roles
+
+#### SRV-DC-01
+
+- Active Directory Domain Services (AD DS)
+- DNS
+- DHCP
+
+#### CLT-01
+
+- Domain member
+- Client workstation
+
+## Future Components
+
+The infrastructure will gradually expand with additional services, including:
+
+- File Services
+- Group Policy
+- PowerShell Automation
+- Monitoring
+- Security
+- Microsoft Entra ID
+- Microsoft Intune
+- Microsoft Azure
+
+## Architecture Evolution
+
+The environment will evolve incrementally.
+
+Each new component should integrate with the existing infrastructure rather than being implemented as an isolated lab.

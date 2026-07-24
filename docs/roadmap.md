@@ -4,7 +4,7 @@ This document outlines the planned evolution of the Enterprise Infrastructure La
 
 ## Phase 1 — Foundation
 
-- [x] Define the virtual environment
+- [ ] Define the virtual environment
 - [ ] Configure the virtual network
 - [ ] Deploy the first virtual machines
 

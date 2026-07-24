@@ -4,15 +4,11 @@ A corporate infrastructure project created to study, implement, and document tec
 
 The goal is not only to learn specific tools, but to build an infrastructure that continuously evolves, simulating real-world scenarios found in IT Operations teams.
 
----
-
 ## Objective
 
 Build a fictional corporate environment to develop practical knowledge in IT Infrastructure through implementations, validations, and technical documentation.
 
 Each laboratory adds new components to the existing infrastructure, allowing the environment to evolve in an organized and scalable way.
-
----
 
 ## Principles
 
@@ -24,8 +20,6 @@ This project follows principles that guide all implementations:
 - Prioritize understanding concepts before automation.
 - Maintain clear, organized, and reusable documentation.
 
----
-
 ## What This Project Contains
 
 - Hands-on infrastructure laboratories.
@@ -35,8 +29,6 @@ This project follows principles that guide all implementations:
 - Operational procedures.
 - Troubleshooting records.
 - Implementation evidence.
-
----
 
 ## Roadmap
 
@@ -49,8 +41,6 @@ This project follows principles that guide all implementations:
 - [ ] Monitoring
 - [ ] Security
 - [ ] Cloud
-
----
 
 ## Repository Structure
 

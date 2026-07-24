@@ -43,7 +43,7 @@ Examples:
 
 Commits should follow this format:
 
-\<type> : \<description"
+\<type>: \<description"
 
 Allowed types:
 
@@ -52,7 +52,7 @@ Allowed types:
 - fix: Correct errors or issues.
 - remove: Delete unnecessary content.
 
-Description has to be written in imperative form
+Description should be written in imperative form
 
 Prefer:
 

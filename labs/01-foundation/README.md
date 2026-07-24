@@ -6,18 +6,18 @@ Prepare the virtual environment that will be used throughout the Enterprise Infr
 
 ## Prerequisites
 
-- Oracle VirtualBox
+- Virtual Machine Manager
 - Windows Server 2022 ISO
 - Windows 11 Pro ISO
 
 ## Tasks
 
-- [ ] Install Oracle VirtualBox
-- [ ] Create the virtual machines
-- [ ] Install Windows Server 2022
+- [X] Install Virtual Machine Manager
+- [X] Create the virtual machines
+- [X] Install Windows Server 2022
 - [ ] Install Windows 11 Pro
-- [ ] Verify both virtual machines boot successfully
-- [ ] Create an initial snapshot
+- [X] Verify both virtual machines boot successfully
+- [X] Create an initial snapshot
 
 ## Validation
 

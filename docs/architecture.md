@@ -24,7 +24,17 @@ The initial infrastructure consists of a single Windows Server acting as the Dom
 
 ### Virtualization Platform
 
-- Oracle VirtualBox
+- Virtual Machine Manager (virt-manager)
+- KVM/QEMU virtualization
+
+### Virtual Machine Distribution
+
+Due to hardware limitations, the virtual machines will be hosted across two physical computers.
+
+| Host | Virtual Machine |
+|------|----------------|
+| Laptop | SRV-DC-01 |
+| Desktop PC | CLT-01 |
 
 ### Virtual Network
 

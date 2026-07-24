@@ -45,14 +45,16 @@ Commits should follow this format:
 
 \<type>: \<description"
 
-Allowed types:
+#### Allowed types:
 
 - add: Add new content or functionality.
 - update: Improve existing content.
 - fix: Correct errors or issues.
 - remove: Delete unnecessary content.
 
-Description should be written in imperative form
+#### Description 
+
+Should be written in imperative form
 
 Prefer:
 

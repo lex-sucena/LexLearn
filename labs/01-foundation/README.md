@@ -15,7 +15,7 @@ Prepare the virtual environment that will be used throughout the Enterprise Infr
 - [X] Install Virtual Machine Manager
 - [X] Create the virtual machines
 - [X] Install Windows Server 2022
-- [ ] Install Windows 11 Pro
+- [X] Install Windows 11 Pro
 - [X] Verify both virtual machines boot successfully
 - [X] Create an initial snapshot
 
